@@ -1,7 +1,7 @@
 {
   "name": "wordpres",
   "version": "0.1.0",
-  "homepage": "http://hussien.entdev.net/react/",
+  "homepage": "http://elmaydome.github.io/react_wp/",
   "private": true,
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^16.0.0",
@@ -10,7 +10,6 @@
     "axios": "^0.19.0",
     "bootstrap": "^4.4.1",
     "formik": "^2.0.8",
-    "gh-pages": "^2.2.0",
     "i18next": "^19.0.2",
     "i18next-browser-languagedetector": "^4.0.1",
     "i18next-xhr-backend": "^3.2.2",
@@ -27,9 +26,10 @@
     "yup": "^0.28.0"
   },
   "scripts": {
-    "fix-memory-limit": "cross-env LIMIT=2048 increase-memory-limit",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts --max_old_space_size=2096 build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
