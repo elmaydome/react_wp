@@ -1,0 +1,17 @@
+{
+    "Home":{
+        "1":"Home page"
+    },
+    "Dashboard":{
+        "1":"controlpanel"
+    },
+    "Logout":{
+        "1":"LogOut"
+    },
+    "page not found":{
+        "1": "page not found"
+    },
+    "Home page":{
+        "1":"Home page"
+    }
+}

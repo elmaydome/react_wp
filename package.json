@@ -1,0 +1,56 @@
+{
+  "name": "wordpres",
+  "version": "0.1.0",
+  "homepage": "http://hussien.entdev.net/react/",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^16.0.0",
+    "@ckeditor/ckeditor5-react": "^2.0.0",
+    "ajv": "6.8.1",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.4.1",
+    "formik": "^2.0.8",
+    "i18next": "^19.0.2",
+    "i18next-browser-languagedetector": "^4.0.1",
+    "i18next-xhr-backend": "^3.2.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-i18next": "^11.2.7",
+    "react-router-dom": "^5.1.2",
+    "react-router-pagination": "^2.0.5",
+    "react-scripts": "^3.3.0",
+    "react-spring": "^8.0.27",
+    "react-toastify": "^5.4.1",
+    "reactstrap": "^8.2.0",
+    "use-state-with-callback": "^1.0.18",
+    "yup": "^0.28.0"
+  },
+  "scripts": {
+    "fix-memory-limit": "cross-env LIMIT=2048 increase-memory-limit",
+    "start": "react-scripts start",
+    "build": "react-scripts --max_old_space_size=2096 build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "css-loader": "^3.4.0",
+    "style-loader": "^1.1.2",
+    "increase-memory-limit": "^1.0.3",
+    "cross-env": "^5.0.5"
+  }
+}
